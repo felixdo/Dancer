@@ -38,7 +38,7 @@ Test::TCP::test_tcp(
         use lib File::Spec->catdir( 't', 'lib' );
         use TestApp;
         Dancer::Config->load;
-        set( charset      => 'utf8',
+        set( 
              port         => $port,
              show_errors  => 1,
              startup_info => 0,
